@@ -11,7 +11,7 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
     const currency = '₹';
     const delivery_fee = 150;
-    const backendUrl = 'http://localhost:4000';
+    const backendUrl = 'https://ecommerce-web-2xyj.onrender.com';
 
     const [search, setSearch] = useState('');
     const [showSearch, setShowSearch] = useState(false);
